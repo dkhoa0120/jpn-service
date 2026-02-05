@@ -13,6 +13,7 @@ type Vocabulary struct {
 	NameJPN   string              `json:"name_jpn" bson:"name_jpn" validate:"required"`
 	Phonetic  string              `json:"phonetic" bson:"phonetic" validate:"required"`
 	Category  enum.VocabularyType `json:"category" bson:"category" validate:"required"`
+	Topic     enum.Topic          `json:"topic" bson:"topic" validate:"required"`
 	CreatedAt time.Time           `json:"created_at" bson:"created_at"`
 	UpdatedAt time.Time           `json:"updated_at" bson:"updated_at"`
 }

@@ -1,0 +1,2088 @@
+[
+  {
+    "name_vi": "TV",
+    "name_jpn": "テレビ",
+    "phonetic": "terebi",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Radio",
+    "name_jpn": "ラジオ",
+    "phonetic": "rajio",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Điều hòa",
+    "name_jpn": "エアコン",
+    "phonetic": "eakon",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Remote điều khiển",
+    "name_jpn": "リモコン",
+    "phonetic": "rimokon",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Smartphone",
+    "name_jpn": "スマホ",
+    "phonetic": "sumaho",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Máy tính bảng",
+    "name_jpn": "タブレット",
+    "phonetic": "taburetto",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Máy tính",
+    "name_jpn": "パソコン",
+    "phonetic": "pasokon",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Laptop",
+    "name_jpn": "ノートパソコン",
+    "phonetic": "nōtopasokon",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Bàn phím",
+    "name_jpn": "キーボード",
+    "phonetic": "kībōdo",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Chuột máy tính",
+    "name_jpn": "マウス",
+    "phonetic": "mausu",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Loa",
+    "name_jpn": "スピーカー",
+    "phonetic": "supīkā",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Tai nghe nhét tai",
+    "name_jpn": "イヤホン",
+    "phonetic": "iyahon",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Tai nghe chụp",
+    "name_jpn": "ヘッドホン",
+    "phonetic": "heddohon",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Pin",
+    "name_jpn": "バッテリー",
+    "phonetic": "batterī",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Dây cáp",
+    "name_jpn": "ケーブル",
+    "phonetic": "kēburu",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Sạc điện",
+    "name_jpn": "充電",
+    "phonetic": "jūden",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Công tắc",
+    "name_jpn": "スイッチ",
+    "phonetic": "suitchi",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Đèn",
+    "name_jpn": "ランプ",
+    "phonetic": "ranpu",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Rèm cửa",
+    "name_jpn": "カーテン",
+    "phonetic": "kāten",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Sofa",
+    "name_jpn": "ソファ",
+    "phonetic": "sofa",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Giường",
+    "name_jpn": "ベッド",
+    "phonetic": "beddo",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Bàn",
+    "name_jpn": "テーブル",
+    "phonetic": "tēburu",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Cửa",
+    "name_jpn": "ドア",
+    "phonetic": "doa",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Vòi sen",
+    "name_jpn": "シャワー",
+    "phonetic": "shawā",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Nhà vệ sinh",
+    "name_jpn": "トイレ",
+    "phonetic": "toire",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Bồn tắm",
+    "name_jpn": "バスタブ",
+    "phonetic": "basutabu",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Khăn tắm",
+    "name_jpn": "タオル",
+    "phonetic": "taoru",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Dầu gội",
+    "name_jpn": "シャンプー",
+    "phonetic": "shanpū",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Dầu xả",
+    "name_jpn": "リンス",
+    "phonetic": "rinsu",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Sữa tắm",
+    "name_jpn": "ボディーソープ",
+    "phonetic": "bodīsōpu",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Khăn giấy",
+    "name_jpn": "ティッシュ",
+    "phonetic": "tisshu",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Rác",
+    "name_jpn": "ゴミ",
+    "phonetic": "gomi",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Móc treo quần áo",
+    "name_jpn": "ハンガー",
+    "phonetic": "hangā",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Gương",
+    "name_jpn": "ミラー",
+    "phonetic": "mirā",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Máy sấy tóc",
+    "name_jpn": "ドライヤー",
+    "phonetic": "doraiyā",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Lược chải",
+    "name_jpn": "ブラシ",
+    "phonetic": "burashi",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Đồ ngủ",
+    "name_jpn": "パジャマ",
+    "phonetic": "pajama",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Dép đi trong nhà",
+    "name_jpn": "スリッパ",
+    "phonetic": "surippa",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Báo thức",
+    "name_jpn": "アラーム",
+    "phonetic": "arāmu",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Đồng hồ hẹn giờ",
+    "name_jpn": "タイマー",
+    "phonetic": "taimā",
+    "category": "ktkn",
+    "topic": "daily_life"
+  },
+  {
+    "name_vi": "Bánh mì",
+    "name_jpn": "パン",
+    "phonetic": "pan",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Bánh ngọt",
+    "name_jpn": "ケーキ",
+    "phonetic": "kēki",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Bánh sandwich",
+    "name_jpn": "サンドイッチ",
+    "phonetic": "sandoitchi",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Hamburger",
+    "name_jpn": "ハンバーガー",
+    "phonetic": "hanbāgā",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Pizza",
+    "name_jpn": "ピザ",
+    "phonetic": "piza",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Mì Ý",
+    "name_jpn": "パスタ",
+    "phonetic": "pasuta",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Cà ri",
+    "name_jpn": "カレー",
+    "phonetic": "karē",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Giăm bông",
+    "name_jpn": "ハム",
+    "phonetic": "hamu",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Xúc xích",
+    "name_jpn": "ソーセージ",
+    "phonetic": "sōsēji",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Phô mai",
+    "name_jpn": "チーズ",
+    "phonetic": "chīzu",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Bơ",
+    "name_jpn": "バター",
+    "phonetic": "batā",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Sữa chua",
+    "name_jpn": "ヨーグルト",
+    "phonetic": "yōguruto",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Salad",
+    "name_jpn": "サラダ",
+    "phonetic": "sarada",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Súp",
+    "name_jpn": "スープ",
+    "phonetic": "sūpu",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Bít tết",
+    "name_jpn": "ステーキ",
+    "phonetic": "sutēki",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Gà",
+    "name_jpn": "チキン",
+    "phonetic": "chikin",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Khoai tây chiên",
+    "name_jpn": "フライドポテト",
+    "phonetic": "furaido poteto",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Trứng tráng",
+    "name_jpn": "オムレツ",
+    "phonetic": "omuretsu",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Bánh donut",
+    "name_jpn": "ドーナツ",
+    "phonetic": "dōnatsu",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Bánh quy",
+    "name_jpn": "クッキー",
+    "phonetic": "kukkī",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Sô cô la",
+    "name_jpn": "チョコ",
+    "phonetic": "choko",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Kẹo",
+    "name_jpn": "キャンディー",
+    "phonetic": "kyandī",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Kẹo cao su",
+    "name_jpn": "ガム",
+    "phonetic": "gamu",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Pudding",
+    "name_jpn": "プリン",
+    "phonetic": "purin",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Thạch",
+    "name_jpn": "ゼリー",
+    "phonetic": "zerī",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Kem",
+    "name_jpn": "アイス",
+    "phonetic": "aisu",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Nước ép",
+    "name_jpn": "ジュース",
+    "phonetic": "jūsu",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Coca Cola",
+    "name_jpn": "コーラ",
+    "phonetic": "kōra",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Nước ngọt có ga",
+    "name_jpn": "サイダー",
+    "phonetic": "saidā",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Cà phê",
+    "name_jpn": "コーヒー",
+    "phonetic": "kōhī",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Cà phê sữa",
+    "name_jpn": "カフェラテ",
+    "phonetic": "kafe rate",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Sữa",
+    "name_jpn": "ミルク",
+    "phonetic": "miruku",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Ca cao",
+    "name_jpn": "ココア",
+    "phonetic": "kokoa",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Rượu vang",
+    "name_jpn": "ワイン",
+    "phonetic": "wain",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Bia",
+    "name_jpn": "ビール",
+    "phonetic": "bīru",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Whisky",
+    "name_jpn": "ウイスキー",
+    "phonetic": "uisukī",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Cocktail",
+    "name_jpn": "カクテル",
+    "phonetic": "kakuteru",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Tráng miệng",
+    "name_jpn": "デザート",
+    "phonetic": "dezāto",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Bữa trưa",
+    "name_jpn": "ランチ",
+    "phonetic": "ranchi",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Bữa tối",
+    "name_jpn": "ディナー",
+    "phonetic": "dinā",
+    "category": "ktkn",
+    "topic": "food"
+  },
+  {
+    "name_vi": "Khách sạn",
+    "name_jpn": "ホテル",
+    "phonetic": "hoteru",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Sảnh",
+    "name_jpn": "ロビー",
+    "phonetic": "robī",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Quầy lễ tân",
+    "name_jpn": "フロント",
+    "phonetic": "furonto",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Nhận phòng",
+    "name_jpn": "チェックイン",
+    "phonetic": "chekkuin",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Trả phòng",
+    "name_jpn": "チェックアウト",
+    "phonetic": "chekkuauto",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Hộ chiếu",
+    "name_jpn": "パスポート",
+    "phonetic": "pasupōto",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Visa",
+    "name_jpn": "ビザ",
+    "phonetic": "biza",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Vé",
+    "name_jpn": "チケット",
+    "phonetic": "chiketto",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Tour du lịch",
+    "name_jpn": "ツアー",
+    "phonetic": "tsuā",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Bản đồ",
+    "name_jpn": "マップ",
+    "phonetic": "mappu",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Kế hoạch",
+    "name_jpn": "プラン",
+    "phonetic": "puran",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Chuyến bay",
+    "name_jpn": "フライト",
+    "phonetic": "furaito",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Nhà ga sân bay",
+    "name_jpn": "ターミナル",
+    "phonetic": "tāminaru",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Cổng",
+    "name_jpn": "ゲート",
+    "phonetic": "gēto",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Phòng chờ",
+    "name_jpn": "ラウンジ",
+    "phonetic": "raunji",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Vali",
+    "name_jpn": "スーツケース",
+    "phonetic": "sūtsukēsu",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Ba lô",
+    "name_jpn": "リュック",
+    "phonetic": "ryukku",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Máy ảnh",
+    "name_jpn": "カメラ",
+    "phonetic": "kamera",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Video",
+    "name_jpn": "ビデオ",
+    "phonetic": "bideo",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Quà lưu niệm",
+    "name_jpn": "おみやげ",
+    "phonetic": "omiyage",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Du khách",
+    "name_jpn": "ツーリスト",
+    "phonetic": "tsūrisuto",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Bãi biển",
+    "name_jpn": "ビーチ",
+    "phonetic": "bīchi",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Khu nghỉ dưỡng",
+    "name_jpn": "リゾート",
+    "phonetic": "rizōto",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Hồ bơi",
+    "name_jpn": "プール",
+    "phonetic": "pūru",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Trượt tuyết",
+    "name_jpn": "スキー",
+    "phonetic": "sukī",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Cắm trại",
+    "name_jpn": "キャンプ",
+    "phonetic": "kyanpu",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Dã ngoại",
+    "name_jpn": "ピクニック",
+    "phonetic": "pikunikku",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Lễ hội",
+    "name_jpn": "フェスティバル",
+    "phonetic": "fesutibaru",
+    "category": "ktkn",
+    "topic": "travel"
+  },
+  {
+    "name_vi": "Văn phòng",
+    "name_jpn": "オフィス",
+    "phonetic": "ofisu",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Nhân viên",
+    "name_jpn": "スタッフ",
+    "phonetic": "sutaffu",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Đội nhóm",
+    "name_jpn": "チーム",
+    "phonetic": "chīmu",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Trưởng nhóm",
+    "name_jpn": "リーダー",
+    "phonetic": "rīdā",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Quản lý",
+    "name_jpn": "マネージャー",
+    "phonetic": "manējā",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Nhân viên văn phòng",
+    "name_jpn": "サラリーマン",
+    "phonetic": "sararīman",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Kỹ sư",
+    "name_jpn": "エンジニア",
+    "phonetic": "enjinia",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Nhà thiết kế",
+    "name_jpn": "デザイナー",
+    "phonetic": "dezainā",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Lập trình viên",
+    "name_jpn": "プログラマー",
+    "phonetic": "puroguramā",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Tài xế",
+    "name_jpn": "ドライバー",
+    "phonetic": "doraibā",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Hướng dẫn viên",
+    "name_jpn": "ガイド",
+    "phonetic": "gaido",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Huấn luyện viên",
+    "name_jpn": "コーチ",
+    "phonetic": "kōchi",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Người dạy",
+    "name_jpn": "トレーナー",
+    "phonetic": "torēnā",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Phát thanh viên",
+    "name_jpn": "アナウンサー",
+    "phonetic": "anaunsā",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Người mẫu",
+    "name_jpn": "モデル",
+    "phonetic": "moderu",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Thần tượng",
+    "name_jpn": "アイドル",
+    "phonetic": "aidoru",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Ngôi sao",
+    "name_jpn": "スター",
+    "phonetic": "sutā",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Fan hâm mộ",
+    "name_jpn": "ファン",
+    "phonetic": "fan",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Trợ lý",
+    "name_jpn": "アシスタント",
+    "phonetic": "ashisutanto",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Cuộc họp",
+    "name_jpn": "ミーティング",
+    "phonetic": "mītingu",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Kinh doanh",
+    "name_jpn": "ビジネス",
+    "phonetic": "bijinesu",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Lịch trình",
+    "name_jpn": "スケジュール",
+    "phonetic": "sukejūru",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Dự án",
+    "name_jpn": "プロジェクト",
+    "phonetic": "purojekuto",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Thuyết trình",
+    "name_jpn": "プレゼン",
+    "phonetic": "purezen",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Dữ liệu",
+    "name_jpn": "データ",
+    "phonetic": "dēta",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Tập tin",
+    "name_jpn": "ファイル",
+    "phonetic": "fairu",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Thư mục",
+    "name_jpn": "フォルダ",
+    "phonetic": "foruda",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Sao chép",
+    "name_jpn": "コピー",
+    "phonetic": "kopī",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "In ấn",
+    "name_jpn": "プリント",
+    "phonetic": "purinto",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Chữ ký",
+    "name_jpn": "サイン",
+    "phonetic": "sain",
+    "category": "ktkn",
+    "topic": "work"
+  },
+  {
+    "name_vi": "Bài kiểm tra",
+    "name_jpn": "テスト",
+    "phonetic": "tesuto",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Trắc nghiệm",
+    "name_jpn": "クイズ",
+    "phonetic": "kuizu",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Báo cáo",
+    "name_jpn": "レポート",
+    "phonetic": "repōto",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Chủ đề",
+    "name_jpn": "テーマ",
+    "phonetic": "tēma",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Vở ghi chép",
+    "name_jpn": "ノート",
+    "phonetic": "nōto",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Trang",
+    "name_jpn": "ページ",
+    "phonetic": "pēji",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Tiêu đề",
+    "name_jpn": "タイトル",
+    "phonetic": "taitoru",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Bút",
+    "name_jpn": "ペン",
+    "phonetic": "pen",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Ghi chú",
+    "name_jpn": "メモ",
+    "phonetic": "memo",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Bút dạ quang",
+    "name_jpn": "マーカー",
+    "phonetic": "mākā",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Phấn",
+    "name_jpn": "チョーク",
+    "phonetic": "chōku",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Bảng",
+    "name_jpn": "ボード",
+    "phonetic": "bōdo",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Lớp học",
+    "name_jpn": "クラス",
+    "phonetic": "kurasu",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Nhóm",
+    "name_jpn": "グループ",
+    "phonetic": "gurūpu",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Cặp đôi",
+    "name_jpn": "ペア",
+    "phonetic": "pea",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Lịch",
+    "name_jpn": "カレンダー",
+    "phonetic": "karendā",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Kiểm tra",
+    "name_jpn": "チェック",
+    "phonetic": "chekku",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Lỗi sai",
+    "name_jpn": "ミス",
+    "phonetic": "misu",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Mẫu",
+    "name_jpn": "サンプル",
+    "phonetic": "sanpuru",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Quy tắc",
+    "name_jpn": "ルール",
+    "phonetic": "rūru",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Cách cư xử",
+    "name_jpn": "マナー",
+    "phonetic": "manā",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Gợi ý",
+    "name_jpn": "ヒント",
+    "phonetic": "hinto",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Điểm",
+    "name_jpn": "ポイント",
+    "phonetic": "pointo",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Cấp độ",
+    "name_jpn": "レベル",
+    "phonetic": "reberu",
+    "category": "ktkn",
+    "topic": "school"
+  },
+  {
+    "name_vi": "Siêu thị",
+    "name_jpn": "スーパー",
+    "phonetic": "sūpā",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Cửa hàng tiện lợi",
+    "name_jpn": "コンビニ",
+    "phonetic": "konbini",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Trung tâm thương mại",
+    "name_jpn": "デパート",
+    "phonetic": "depāto",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Mua sắm",
+    "name_jpn": "ショッピング",
+    "phonetic": "shoppingu",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Giảm giá",
+    "name_jpn": "セール",
+    "phonetic": "sēru",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Quầy thu ngân",
+    "name_jpn": "レジ",
+    "phonetic": "reji",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Túi",
+    "name_jpn": "バッグ",
+    "phonetic": "baggu",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Túi nilon",
+    "name_jpn": "ビニール",
+    "phonetic": "binīru",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Thương hiệu",
+    "name_jpn": "ブランド",
+    "phonetic": "burando",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Thời trang",
+    "name_jpn": "ファッション",
+    "phonetic": "fasshon",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Kích cỡ",
+    "name_jpn": "サイズ",
+    "phonetic": "saizu",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Màu sắc",
+    "name_jpn": "カラー",
+    "phonetic": "karā",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Thiết kế",
+    "name_jpn": "デザイン",
+    "phonetic": "dezain",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Nhãn",
+    "name_jpn": "ラベル",
+    "phonetic": "raberu",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Bao bì",
+    "name_jpn": "パッケージ",
+    "phonetic": "pakkēji",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Chiến dịch",
+    "name_jpn": "キャンペーン",
+    "phonetic": "kyanpēn",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Hàng thanh lý",
+    "name_jpn": "バーゲン",
+    "phonetic": "bāgen",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Dịch vụ",
+    "name_jpn": "サービス",
+    "phonetic": "sābisu",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Phiếu giảm giá",
+    "name_jpn": "クーポン",
+    "phonetic": "kūpon",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Thẻ tích điểm",
+    "name_jpn": "ポイントカード",
+    "phonetic": "pointo kādo",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Thẻ tín dụng",
+    "name_jpn": "クレジットカード",
+    "phonetic": "kurejitto kādo",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Hoá đơn",
+    "name_jpn": "レシート",
+    "phonetic": "reshīto",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Quà tặng",
+    "name_jpn": "ギフト",
+    "phonetic": "gifuto",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Quà",
+    "name_jpn": "プレゼント",
+    "phonetic": "purezento",
+    "category": "ktkn",
+    "topic": "shopping"
+  },
+  {
+    "name_vi": "Căng thẳng",
+    "name_jpn": "ストレス",
+    "phonetic": "sutoresu",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Thư giãn",
+    "name_jpn": "リラックス",
+    "phonetic": "rirakkusu",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Massage",
+    "name_jpn": "マッサージ",
+    "phonetic": "massāji",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Vitamin",
+    "name_jpn": "ビタミン",
+    "phonetic": "bitamin",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Calo",
+    "name_jpn": "カロリー",
+    "phonetic": "karorī",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Ăn kiêng",
+    "name_jpn": "ダイエット",
+    "phonetic": "daietto",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Năng lượng",
+    "name_jpn": "エネルギー",
+    "phonetic": "enerugī",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Virus",
+    "name_jpn": "ウイルス",
+    "phonetic": "uirusu",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Dị ứng",
+    "name_jpn": "アレルギー",
+    "phonetic": "arerugī",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Vắc xin",
+    "name_jpn": "ワクチン",
+    "phonetic": "wakuchin",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Thực phẩm chức năng",
+    "name_jpn": "サプリメント",
+    "phonetic": "sapurimento",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Bác sĩ",
+    "name_jpn": "ドクター",
+    "phonetic": "dokutā",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Y tá",
+    "name_jpn": "ナース",
+    "phonetic": "nāsu",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Phòng khám",
+    "name_jpn": "クリニック",
+    "phonetic": "kurinikku",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Thể dục",
+    "name_jpn": "フィットネス",
+    "phonetic": "fittonesu",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Phòng tập",
+    "name_jpn": "ジム",
+    "phonetic": "jimu",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Tập luyện",
+    "name_jpn": "トレーニング",
+    "phonetic": "torēningu",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Giãn cơ",
+    "name_jpn": "ストレッチ",
+    "phonetic": "sutorecchi",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Cân bằng",
+    "name_jpn": "バランス",
+    "phonetic": "baransu",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Tinh thần",
+    "name_jpn": "メンタル",
+    "phonetic": "mentaru",
+    "category": "ktkn",
+    "topic": "health"
+  },
+  {
+    "name_vi": "Mẹ",
+    "name_jpn": "ママ",
+    "phonetic": "mama",
+    "category": "ktkn",
+    "topic": "family"
+  },
+  {
+    "name_vi": "Bố",
+    "name_jpn": "パパ",
+    "phonetic": "papa",
+    "category": "ktkn",
+    "topic": "family"
+  },
+  {
+    "name_vi": "Em bé",
+    "name_jpn": "ベビー",
+    "phonetic": "bebī",
+    "category": "ktkn",
+    "topic": "family"
+  },
+  {
+    "name_vi": "Trẻ em",
+    "name_jpn": "キッズ",
+    "phonetic": "kizzu",
+    "category": "ktkn",
+    "topic": "family"
+  },
+  {
+    "name_vi": "Gia đình",
+    "name_jpn": "ファミリー",
+    "phonetic": "famirī",
+    "category": "ktkn",
+    "topic": "family"
+  },
+  {
+    "name_vi": "Người giữ trẻ",
+    "name_jpn": "ベビーシッター",
+    "phonetic": "bebīshittā",
+    "category": "ktkn",
+    "topic": "family"
+  },
+  {
+    "name_vi": "Xe đẩy em bé",
+    "name_jpn": "ベビーカー",
+    "phonetic": "bebīkā",
+    "category": "ktkn",
+    "topic": "family"
+  },
+  {
+    "name_vi": "Thú cưng",
+    "name_jpn": "ペット",
+    "phonetic": "petto",
+    "category": "ktkn",
+    "topic": "family"
+  },
+  {
+    "name_vi": "Chó",
+    "name_jpn": "ドッグ",
+    "phonetic": "doggu",
+    "category": "ktkn",
+    "topic": "family"
+  },
+  {
+    "name_vi": "Mèo",
+    "name_jpn": "キャット",
+    "phonetic": "kyatto",
+    "category": "ktkn",
+    "topic": "family"
+  },
+  {
+    "name_vi": "Tin tức",
+    "name_jpn": "ニュース",
+    "phonetic": "nyūsu",
+    "category": "ktkn",
+    "topic": "weather"
+  },
+  {
+    "name_vi": "Mùa",
+    "name_jpn": "シーズン",
+    "phonetic": "shīzun",
+    "category": "ktkn",
+    "topic": "weather"
+  },
+  {
+    "name_vi": "Mùa hè",
+    "name_jpn": "サマー",
+    "phonetic": "samā",
+    "category": "ktkn",
+    "topic": "weather"
+  },
+  {
+    "name_vi": "Mùa đông",
+    "name_jpn": "ウィンター",
+    "phonetic": "wintā",
+    "category": "ktkn",
+    "topic": "weather"
+  },
+  {
+    "name_vi": "Mùa xuân",
+    "name_jpn": "スプリング",
+    "phonetic": "supuringu",
+    "category": "ktkn",
+    "topic": "weather"
+  },
+  {
+    "name_vi": "Mùa thu",
+    "name_jpn": "オータム",
+    "phonetic": "ōtamu",
+    "category": "ktkn",
+    "topic": "weather"
+  },
+  {
+    "name_vi": "Mát",
+    "name_jpn": "クール",
+    "phonetic": "kūru",
+    "category": "ktkn",
+    "topic": "weather"
+  },
+  {
+    "name_vi": "Nóng",
+    "name_jpn": "ホット",
+    "phonetic": "hotto",
+    "category": "ktkn",
+    "topic": "weather"
+  },
+  {
+    "name_vi": "Khô",
+    "name_jpn": "ドライ",
+    "phonetic": "dorai",
+    "category": "ktkn",
+    "topic": "weather"
+  },
+  {
+    "name_vi": "Ẩm ướt",
+    "name_jpn": "ウェット",
+    "phonetic": "wetto",
+    "category": "ktkn",
+    "topic": "weather"
+  },
+  {
+    "name_vi": "Game",
+    "name_jpn": "ゲーム",
+    "phonetic": "gēmu",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Anime",
+    "name_jpn": "アニメ",
+    "phonetic": "anime",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Truyện tranh",
+    "name_jpn": "マンガ",
+    "phonetic": "manga",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Phim truyền hình",
+    "name_jpn": "ドラマ",
+    "phonetic": "dorama",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Phim điện ảnh",
+    "name_jpn": "ムービー",
+    "phonetic": "mūbī",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Karaoke",
+    "name_jpn": "カラオケ",
+    "phonetic": "karaoke",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Khiêu vũ",
+    "name_jpn": "ダンス",
+    "phonetic": "dansu",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Đàn piano",
+    "name_jpn": "ピアノ",
+    "phonetic": "piano",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Đàn guitar",
+    "name_jpn": "ギター",
+    "phonetic": "gitā",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Đàn violin",
+    "name_jpn": "バイオリン",
+    "phonetic": "baiorin",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Đi bộ đường dài",
+    "name_jpn": "ハイキング",
+    "phonetic": "haikingu",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Câu cá",
+    "name_jpn": "フィッシング",
+    "phonetic": "fisshingu",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Lái xe",
+    "name_jpn": "ドライブ",
+    "phonetic": "doraibu",
+    "category": "ktkn",
+    "topic": "hobby"
+  },
+  {
+    "name_vi": "Xe buýt",
+    "name_jpn": "バス",
+    "phonetic": "basu",
+    "category": "ktkn",
+    "topic": "transportation"
+  },
+  {
+    "name_vi": "Taxi",
+    "name_jpn": "タクシー",
+    "phonetic": "takushī",
+    "category": "ktkn",
+    "topic": "transportation"
+  },
+  {
+    "name_vi": "Xe tải",
+    "name_jpn": "トラック",
+    "phonetic": "torakku",
+    "category": "ktkn",
+    "topic": "transportation"
+  },
+  {
+    "name_vi": "Xe máy",
+    "name_jpn": "バイク",
+    "phonetic": "baiku",
+    "category": "ktkn",
+    "topic": "transportation"
+  },
+  {
+    "name_vi": "Trực thăng",
+    "name_jpn": "ヘリコプター",
+    "phonetic": "herikoputā",
+    "category": "ktkn",
+    "topic": "transportation"
+  },
+  {
+    "name_vi": "Động cơ",
+    "name_jpn": "エンジン",
+    "phonetic": "enjin",
+    "category": "ktkn",
+    "topic": "transportation"
+  },
+  {
+    "name_vi": "Xăng",
+    "name_jpn": "ガソリン",
+    "phonetic": "gasorin",
+    "category": "ktkn",
+    "topic": "transportation"
+  },
+  {
+    "name_vi": "Trạm xăng",
+    "name_jpn": "ガソリンスタンド",
+    "phonetic": "gasorin sutando",
+    "category": "ktkn",
+    "topic": "transportation"
+  },
+  {
+    "name_vi": "Xe thuê",
+    "name_jpn": "レンタカー",
+    "phonetic": "rentakā",
+    "category": "ktkn",
+    "topic": "transportation"
+  },
+  {
+    "name_vi": "Dây an toàn",
+    "name_jpn": "シートベルト",
+    "phonetic": "shītoberuto",
+    "category": "ktkn",
+    "topic": "transportation"
+  },
+  {
+    "name_vi": "Tốc độ",
+    "name_jpn": "スピード",
+    "phonetic": "supīdo",
+    "category": "ktkn",
+    "topic": "transportation"
+  },
+  {
+    "name_vi": "Internet",
+    "name_jpn": "インターネット",
+    "phonetic": "intānetto",
+    "category": "ktkn",
+    "topic": "technology"
+  },
+  {
+    "name_vi": "Website",
+    "name_jpn": "ウェブサイト",
+    "phonetic": "webusaito",
+    "category": "ktkn",
+    "topic": "technology"
+  },
+  {
+    "name_vi": "Email",
+    "name_jpn": "メール",
+    "phonetic": "mēru",
+    "category": "ktkn",
+    "topic": "technology"
+  },
+  {
+    "name_vi": "Mật khẩu",
+    "name_jpn": "パスワード",
+    "phonetic": "pasuwādo",
+    "category": "ktkn",
+    "topic": "technology"
+  },
+  {
+    "name_vi": "Ứng dụng",
+    "name_jpn": "アプリ",
+    "phonetic": "apuri",
+    "category": "ktkn",
+    "topic": "technology"
+  },
+  {
+    "name_vi": "Phần mềm",
+    "name_jpn": "ソフト",
+    "phonetic": "sofuto",
+    "category": "ktkn",
+    "topic": "technology"
+  },
+  {
+    "name_vi": "Phần cứng",
+    "name_jpn": "ハード",
+    "phonetic": "hādo",
+    "category": "ktkn",
+    "topic": "technology"
+  },
+  {
+    "name_vi": "Tải xuống",
+    "name_jpn": "ダウンロード",
+    "phonetic": "daunrōdo",
+    "category": "ktkn",
+    "topic": "technology"
+  },
+  {
+    "name_vi": "Tải lên",
+    "name_jpn": "アップロード",
+    "phonetic": "appurōdo",
+    "category": "ktkn",
+    "topic": "technology"
+  },
+  {
+    "name_vi": "Sinh thái",
+    "name_jpn": "エコ",
+    "phonetic": "eko",
+    "category": "ktkn",
+    "topic": "nature"
+  },
+  {
+    "name_vi": "Tái chế",
+    "name_jpn": "リサイクル",
+    "phonetic": "risaikuru",
+    "category": "ktkn",
+    "topic": "nature"
+  },
+  {
+    "name_vi": "Khí gas",
+    "name_jpn": "ガス",
+    "phonetic": "gasu",
+    "category": "ktkn",
+    "topic": "nature"
+  },
+  {
+    "name_vi": "Nhựa",
+    "name_jpn": "プラスチック",
+    "phonetic": "purasuchikku",
+    "category": "ktkn",
+    "topic": "nature"
+  },
+  {
+    "name_vi": "Nước khoáng",
+    "name_jpn": "ミネラルウォーター",
+    "phonetic": "mineraru wōtā",
+    "category": "ktkn",
+    "topic": "nature"
+  },
+  {
+    "name_vi": "Ion âm",
+    "name_jpn": "マイナスイオン",
+    "phonetic": "mainasu ion",
+    "category": "ktkn",
+    "topic": "nature"
+  },
+  {
+    "name_vi": "Giáng sinh",
+    "name_jpn": "クリスマス",
+    "phonetic": "kurisumasu",
+    "category": "ktkn",
+    "topic": "culture"
+  },
+  {
+    "name_vi": "Halloween",
+    "name_jpn": "ハロウィン",
+    "phonetic": "harowin",
+    "category": "ktkn",
+    "topic": "culture"
+  },
+  {
+    "name_vi": "Valentine",
+    "name_jpn": "バレンタイン",
+    "phonetic": "barentain",
+    "category": "ktkn",
+    "topic": "culture"
+  },
+  {
+    "name_vi": "Bữa tiệc",
+    "name_jpn": "パーティー",
+    "phonetic": "pātī",
+    "category": "ktkn",
+    "topic": "culture"
+  },
+  {
+    "name_vi": "Sự kiện",
+    "name_jpn": "イベント",
+    "phonetic": "ibento",
+    "category": "ktkn",
+    "topic": "culture"
+  },
+  {
+    "name_vi": "Cosplay",
+    "name_jpn": "コスプレ",
+    "phonetic": "kosupure",
+    "category": "ktkn",
+    "topic": "culture"
+  },
+  {
+    "name_vi": "Bóng đá",
+    "name_jpn": "サッカー",
+    "phonetic": "sakkā",
+    "category": "ktkn",
+    "topic": "sports"
+  },
+  {
+    "name_vi": "Bóng rổ",
+    "name_jpn": "バスケットボール",
+    "phonetic": "basukettobōru",
+    "category": "ktkn",
+    "topic": "sports"
+  },
+  {
+    "name_vi": "Bóng chuyền",
+    "name_jpn": "バレーボール",
+    "phonetic": "barēbōru",
+    "category": "ktkn",
+    "topic": "sports"
+  },
+  {
+    "name_vi": "Tennis",
+    "name_jpn": "テニス",
+    "phonetic": "tenisu",
+    "category": "ktkn",
+    "topic": "sports"
+  },
+  {
+    "name_vi": "Cầu lông",
+    "name_jpn": "バドミントン",
+    "phonetic": "badominton",
+    "category": "ktkn",
+    "topic": "sports"
+  },
+  {
+    "name_vi": "Golf",
+    "name_jpn": "ゴルフ",
+    "phonetic": "gorufu",
+    "category": "ktkn",
+    "topic": "sports"
+  },
+  {
+    "name_vi": "Chạy bộ",
+    "name_jpn": "ジョギング",
+    "phonetic": "jogingu",
+    "category": "ktkn",
+    "topic": "sports"
+  },
+  {
+    "name_vi": "Marathon",
+    "name_jpn": "マラソン",
+    "phonetic": "marason",
+    "category": "ktkn",
+    "topic": "sports"
+  },
+  {
+    "name_vi": "Yoga",
+    "name_jpn": "ヨガ",
+    "phonetic": "yoga",
+    "category": "ktkn",
+    "topic": "sports"
+  },
+  {
+    "name_vi": "Đồng hồ bấm giờ",
+    "name_jpn": "ストップウォッチ",
+    "phonetic": "sutoppu wotchi",
+    "category": "ktkn",
+    "topic": "time"
+  },
+  {
+    "name_vi": "Giờ ăn trưa",
+    "name_jpn": "ランチタイム",
+    "phonetic": "ranchi taimu",
+    "category": "ktkn",
+    "topic": "time"
+  },
+  {
+    "name_vi": "Giờ uống trà",
+    "name_jpn": "ティータイム",
+    "phonetic": "tī taimu",
+    "category": "ktkn",
+    "topic": "time"
+  },
+  {
+    "name_vi": "Tuần lễ vàng",
+    "name_jpn": "ゴールデンウィーク",
+    "phonetic": "gōruden wīku",
+    "category": "ktkn",
+    "topic": "time"
+  },
+  {
+    "name_vi": "Vui vẻ",
+    "name_jpn": "ハッピー",
+    "phonetic": "happī",
+    "category": "ktkn",
+    "topic": "feelings"
+  },
+  {
+    "name_vi": "May mắn",
+    "name_jpn": "ラッキー",
+    "phonetic": "rakkī",
+    "category": "ktkn",
+    "topic": "feelings"
+  },
+  {
+    "name_vi": "Hồi hộp",
+    "name_jpn": "ドキドキ",
+    "phonetic": "dokidoki",
+    "category": "ktkn",
+    "topic": "feelings"
+  },
+  {
+    "name_vi": "Háo hức",
+    "name_jpn": "ワクワク",
+    "phonetic": "wakuwaku",
+    "category": "ktkn",
+    "topic": "feelings"
+  },
+  {
+    "name_vi": "Bực bội",
+    "name_jpn": "イライラ",
+    "phonetic": "iraira",
+    "category": "ktkn",
+    "topic": "feelings"
+  },
+  {
+    "name_vi": "Sốc",
+    "name_jpn": "ショック",
+    "phonetic": "shokku",
+    "category": "ktkn",
+    "topic": "feelings"
+  },
+  {
+    "name_vi": "Tâm trạng",
+    "name_jpn": "テンション",
+    "phonetic": "tenshon",
+    "category": "ktkn",
+    "topic": "feelings"
+  },
+  {
+    "name_vi": "Rắc rối",
+    "name_jpn": "トラブル",
+    "phonetic": "toraburu",
+    "category": "ktkn",
+    "topic": "other"
+  },
+  {
+    "name_vi": "Cơ hội",
+    "name_jpn": "チャンス",
+    "phonetic": "chansu",
+    "category": "ktkn",
+    "topic": "other"
+  },
+  {
+    "name_vi": "Phòng",
+    "name_jpn": "ルーム",
+    "phonetic": "rūmu",
+    "category": "ktkn",
+    "topic": "other"
+  },
+  {
+    "name_vi": "Hệ thống",
+    "name_jpn": "システム",
+    "phonetic": "shisutemu",
+    "category": "ktkn",
+    "topic": "other"
+  },
+  {
+    "name_vi": "Ý tưởng",
+    "name_jpn": "アイデア",
+    "phonetic": "aidea",
+    "category": "ktkn",
+    "topic": "other"
+  },
+  {
+    "name_vi": "Kiểu",
+    "name_jpn": "タイプ",
+    "phonetic": "taipu",
+    "category": "ktkn",
+    "topic": "other"
+  },
+  {
+    "name_vi": "Hình ảnh",
+    "name_jpn": "イメージ",
+    "phonetic": "imēji",
+    "category": "ktkn",
+    "topic": "other"
+  }
+]

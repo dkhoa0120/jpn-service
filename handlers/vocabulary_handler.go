@@ -5,11 +5,13 @@ import (
 	"encoding/json"
 	"net/http"
 	"strconv"
+	"sync"
 	"time"
 
 	"jpn-service/common"
 	"jpn-service/models"
 
+	"github.com/gorilla/mux"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
@@ -87,37 +89,73 @@ func GetVocabularies(w http.ResponseWriter, r *http.Request) {
 		filter["category"] = category
 	}
 
+	if topic := r.URL.Query().Get("topic"); topic != "" {
+		filter["topic"] = topic
+	}
+
 	collection := common.GetDBCollection("vocabularies")
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
-	opts := options.Find().
-		SetSkip(int64(skip)).
-		SetLimit(int64(size)).
-		SetSort(bson.M{"created_at": -1})
-
-	cursor, err := collection.Find(ctx, filter, opts)
-	if err != nil {
-		w.WriteHeader(http.StatusInternalServerError)
-		json.NewEncoder(w).Encode(Response{
-			Success: false,
-			Message: "Error fetching vocabularies: " + err.Error(),
-		})
-		return
-	}
-	defer cursor.Close(ctx)
-
+	// ✅ Sử dụng goroutine để chạy song song
 	var vocabularies []models.Vocabulary
-	if err := cursor.All(ctx, &vocabularies); err != nil {
+	var total int64
+	var wg sync.WaitGroup
+	var findErr, countErr error
+
+	wg.Add(2)
+
+	// Query 1: Get documents
+	go func() {
+		defer wg.Done()
+		opts := options.Find().
+			SetSkip(int64(skip)).
+			SetLimit(int64(size)).
+			SetSort(bson.M{"created_at": -1})
+
+		cursor, err := collection.Find(ctx, filter, opts)
+		if err != nil {
+			findErr = err
+			return
+		}
+		defer cursor.Close(ctx)
+
+		if err := cursor.All(ctx, &vocabularies); err != nil {
+			findErr = err
+		}
+	}()
+
+	// Query 2: Count documents (parallel)
+	go func() {
+		defer wg.Done()
+		count, err := collection.CountDocuments(ctx, filter)
+		if err != nil {
+			countErr = err
+			return
+		}
+		total = count
+	}()
+
+	wg.Wait()
+
+	// Check for errors
+	if findErr != nil {
 		w.WriteHeader(http.StatusInternalServerError)
 		json.NewEncoder(w).Encode(Response{
 			Success: false,
-			Message: "Error decoding vocabularies: " + err.Error(),
+			Message: "Error fetching vocabularies: " + findErr.Error(),
 		})
 		return
 	}
 
-	total, _ := collection.CountDocuments(ctx, filter)
+	if countErr != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Message: "Error counting vocabularies: " + countErr.Error(),
+		})
+		return
+	}
 
 	json.NewEncoder(w).Encode(Response{
 		Success: true,
@@ -129,5 +167,87 @@ func GetVocabularies(w http.ResponseWriter, r *http.Request) {
 				"total": total,
 			},
 		},
+	})
+}
+
+// UpdateVocabulary - Cập nhật vocabulary theo ID
+func UpdateVocabulary(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
+	// Lấy ID từ URL params
+	params := mux.Vars(r)
+	id, err := primitive.ObjectIDFromHex(params["id"])
+	if err != nil {
+		w.WriteHeader(http.StatusBadRequest)
+		json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Message: "Invalid vocabulary ID",
+		})
+		return
+	}
+
+	// Parse request body
+	var vocabulary models.Vocabulary
+	if err := json.NewDecoder(r.Body).Decode(&vocabulary); err != nil {
+		w.WriteHeader(http.StatusBadRequest)
+		json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Message: "Invalid request body",
+		})
+		return
+	}
+
+	collection := common.GetDBCollection("vocabularies")
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+
+	// Update document
+	update := bson.M{
+		"$set": bson.M{
+			"name_vi":    vocabulary.NameVI,
+			"name_jpn":   vocabulary.NameJPN,
+			"phonetic":   vocabulary.Phonetic,
+			"category":   vocabulary.Category,
+			"topic":      vocabulary.Topic,
+			"updated_at": time.Now(),
+		},
+	}
+
+	result, err := collection.UpdateOne(ctx, bson.M{"_id": id}, update)
+	if err != nil {
+		if mongo.IsDuplicateKeyError(err) {
+			w.WriteHeader(http.StatusConflict)
+			json.NewEncoder(w).Encode(Response{
+				Success: false,
+				Message: "Vocabulary with same data already exists",
+			})
+			return
+		}
+
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Message: "Error updating vocabulary: " + err.Error(),
+		})
+		return
+	}
+
+	if result.MatchedCount == 0 {
+		w.WriteHeader(http.StatusNotFound)
+		json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Message: "Vocabulary not found",
+		})
+		return
+	}
+
+	// Return updated data
+	vocabulary.ID = id
+	vocabulary.UpdatedAt = time.Now()
+
+	json.NewEncoder(w).Encode(Response{
+		Success: true,
+		Message: "Vocabulary updated successfully",
+		Data:    vocabulary,
 	})
 }
