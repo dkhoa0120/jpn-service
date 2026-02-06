@@ -83,21 +83,39 @@ func GetVocabularies(w http.ResponseWriter, r *http.Request) {
 
 	skip := (page - 1) * size
 
-	// Filter
+	// Build filter
 	filter := bson.M{}
+
+	// Category filter
 	if category := r.URL.Query().Get("category"); category != "" {
 		filter["category"] = category
 	}
 
+	// Topic filter
 	if topic := r.URL.Query().Get("topic"); topic != "" {
 		filter["topic"] = topic
+	}
+
+	// Search filter (search in name_jpn, name_vi, phonetic)
+	if search := r.URL.Query().Get("search"); search != "" {
+		// Create regex pattern for case-insensitive search
+		searchRegex := primitive.Regex{
+			Pattern: search,
+			Options: "i", // case-insensitive
+		}
+
+		// Search in multiple fields using $or
+		filter["$or"] = []bson.M{
+			{"name_jpn": searchRegex},
+			{"name_vi": searchRegex},
+			{"phonetic": searchRegex},
+		}
 	}
 
 	collection := common.GetDBCollection("vocabularies")
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
-	// ✅ Sử dụng goroutine để chạy song song
 	var vocabularies []models.Vocabulary
 	var total int64
 	var wg sync.WaitGroup
@@ -155,6 +173,11 @@ func GetVocabularies(w http.ResponseWriter, r *http.Request) {
 			Message: "Error counting vocabularies: " + countErr.Error(),
 		})
 		return
+	}
+
+	// Initialize empty array if nil
+	if vocabularies == nil {
+		vocabularies = []models.Vocabulary{}
 	}
 
 	json.NewEncoder(w).Encode(Response{
