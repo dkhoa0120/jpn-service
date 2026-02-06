@@ -2,12 +2,24 @@ package routes
 
 import (
 	"jpn-service/handlers"
+	"jpn-service/middleware"
+	"net/http"
 
 	"github.com/gorilla/mux"
 )
 
 func SetupRoutes() *mux.Router {
 	router := mux.NewRouter()
+
+	// Apply CORS middleware globally
+	router.Use(middleware.CORS)
+
+	// Health check
+	router.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusOK)
+		w.Write([]byte(`{"status": "ok"}`))
+	}).Methods("GET")
 
 	// User routes
 	router.HandleFunc("/api/users", handlers.GetAllUsers).Methods("GET")
