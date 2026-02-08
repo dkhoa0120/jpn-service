@@ -155,9 +155,12 @@ func UpdateDaily(w http.ResponseWriter, r *http.Request) {
 
 	update := bson.M{
 		"$set": bson.M{
-			"title":       daily.Title,
-			"description": daily.Description,
-			"updated_at":  time.Now(),
+			"title":            daily.Title,
+			"content":          daily.Content,
+			"fix_content":      daily.FixContent,
+			"note":             daily.Note,
+			"vocabulary_notes": daily.VocabularyNotes,
+			"updated_at":       time.Now(),
 		},
 	}
 
