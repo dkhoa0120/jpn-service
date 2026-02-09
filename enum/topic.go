@@ -30,6 +30,7 @@ const (
 	TopicSports
 	TopicTimeDate
 	TopicFeelings
+	TopicLocation
 	TopicOther
 )
 
@@ -52,6 +53,7 @@ var TopicName = map[Topic]string{
 	TopicSports:         "sports",
 	TopicTimeDate:       "time",
 	TopicFeelings:       "feelings",
+	TopicLocation: 		 "location",
 	TopicOther:          "other",
 }
 
