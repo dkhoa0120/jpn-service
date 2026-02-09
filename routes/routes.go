@@ -39,6 +39,7 @@ func SetupRoutes() *mux.Router {
     router.HandleFunc("/api/vocabularies", handlers.GetVocabularies).Methods("GET", "OPTIONS")
     router.HandleFunc("/api/vocabularies", handlers.CreateVocabulary).Methods("POST", "OPTIONS")
     router.HandleFunc("/api/vocabularies/{id}", handlers.UpdateVocabulary).Methods("PUT", "OPTIONS")
+	router.HandleFunc("/api/vocabularies/random", handlers.GetRandomVocabularies).Methods("GET", "OPTIONS")
 
     // Grammar routes
     router.HandleFunc("/api/grammars", handlers.CreateGrammar).Methods("POST", "OPTIONS")
@@ -48,6 +49,10 @@ func SetupRoutes() *mux.Router {
     router.HandleFunc("/api/grammars/{id}", handlers.GetGrammarByID).Methods("GET", "OPTIONS")
     router.HandleFunc("/api/grammars/{id}", handlers.UpdateGrammar).Methods("PUT", "OPTIONS")
     router.HandleFunc("/api/grammars/{id}", handlers.DeleteGrammar).Methods("DELETE", "OPTIONS")
+
+	// Score
+	router.HandleFunc("/api/scores", handlers.GetAllScores).Methods("GET", "OPTIONS")
+    router.HandleFunc("/api/scores", handlers.CreateScore).Methods("POST", "OPTIONS")
 
     return router
 }

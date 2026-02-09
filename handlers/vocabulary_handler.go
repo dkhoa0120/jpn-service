@@ -274,3 +274,53 @@ func UpdateVocabulary(w http.ResponseWriter, r *http.Request) {
 		Data:    vocabulary,
 	})
 }
+
+func GetRandomVocabularies(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
+	limit := 30 // default
+
+	collection := common.GetDBCollection("vocabularies")
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+
+	// Sử dụng MongoDB aggregation pipeline với $sample để lấy random
+	pipeline := mongo.Pipeline{
+		{{Key: "$sample", Value: bson.M{"size": limit}}},
+	}
+
+	cursor, err := collection.Aggregate(ctx, pipeline)
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Message: "Error fetching random vocabularies: " + err.Error(),
+		})
+		return
+	}
+	defer cursor.Close(ctx)
+
+	var vocabularies []models.Vocabulary
+	if err := cursor.All(ctx, &vocabularies); err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Message: "Error decoding vocabularies: " + err.Error(),
+		})
+		return
+	}
+
+	// Initialize empty array if nil
+	if vocabularies == nil {
+		vocabularies = []models.Vocabulary{}
+	}
+
+	json.NewEncoder(w).Encode(Response{
+		Success: true,
+		Message: "Random vocabularies fetched successfully",
+		Data: bson.M{
+			"items": vocabularies,
+			"count": len(vocabularies),
+		},
+	})
+}
