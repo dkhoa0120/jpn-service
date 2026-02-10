@@ -324,3 +324,49 @@ func GetRandomVocabularies(w http.ResponseWriter, r *http.Request) {
 		},
 	})
 }
+
+
+
+func DeleteVocabulary(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
+	params := mux.Vars(r)
+	id, err := primitive.ObjectIDFromHex(params["id"])
+	if err != nil {
+		w.WriteHeader(http.StatusBadRequest)
+		json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Message: "Invalid user ID",
+		})
+		return
+	}
+
+	collection := common.GetDBCollection("vocabularies")
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+
+	result, err := collection.DeleteOne(ctx, bson.M{"_id": id})
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Message: "Error deleting user: " + err.Error(),
+		})
+		return
+	}
+
+	if result.DeletedCount == 0 {
+		w.WriteHeader(http.StatusNotFound)
+		json.NewEncoder(w).Encode(Response{
+			Success: false,
+			Message: "Vocabularies not found",
+		})
+		return
+	}
+
+	json.NewEncoder(w).Encode(Response{
+		Success: true,
+		Message: "Vocabularies deleted successfully",
+	})
+}
+

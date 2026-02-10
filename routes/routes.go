@@ -40,6 +40,7 @@ func SetupRoutes() *mux.Router {
     router.HandleFunc("/api/vocabularies", handlers.CreateVocabulary).Methods("POST", "OPTIONS")
     router.HandleFunc("/api/vocabularies/{id}", handlers.UpdateVocabulary).Methods("PUT", "OPTIONS")
 	router.HandleFunc("/api/vocabularies/random", handlers.GetRandomVocabularies).Methods("GET", "OPTIONS")
+    router.HandleFunc("/api/vocabularies/{id}", handlers.DeleteVocabulary).Methods("DELETE", "OPTIONS")
 
     // Grammar routes
     router.HandleFunc("/api/grammars", handlers.CreateGrammar).Methods("POST", "OPTIONS")
