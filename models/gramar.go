@@ -15,12 +15,9 @@ type GrammarExample struct {
 type Grammar struct {
 	ID primitive.ObjectID `json:"id,omitempty" bson:"_id,omitempty"`
 
-	Pattern     string           `json:"pattern" bson:"pattern" validate:"required"`
-	Description string           `json:"description" bson:"description" validate:"required"`
-	Usage       string           `json:"usage" bson:"usage"`
-	Level       enum.JLPTLevel   `json:"level" bson:"level" validate:"required"`
-	Structure   string           `json:"structure" bson:"structure"`
-	Examples    []GrammarExample `json:"examples" bson:"examples"`
-	CreatedAt   time.Time        `json:"created_at" bson:"created_at"`
-	UpdatedAt   time.Time        `json:"updated_at" bson:"updated_at"`
+	Title       string         `json:"title" bson:"title" validate:"required"`
+	Description string         `json:"description" bson:"description" validate:"required"`
+	Level       enum.JLPTLevel `json:"level" bson:"level" validate:"required"`
+	CreatedAt   time.Time      `json:"created_at" bson:"created_at"`
+	UpdatedAt   time.Time      `json:"updated_at" bson:"updated_at"`
 }

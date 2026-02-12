@@ -221,12 +221,9 @@ func UpdateGrammar(w http.ResponseWriter, r *http.Request) {
 	// Update document
 	update := bson.M{
 		"$set": bson.M{
-			"pattern":     grammar.Pattern,
+			"title":       grammar.Title,
 			"description": grammar.Description,
-			"usage":       grammar.Usage,
 			"level":       grammar.Level,
-			"structure":   grammar.Structure,
-			"examples":    grammar.Examples,
 			"updated_at":  time.Now(),
 		},
 	}
